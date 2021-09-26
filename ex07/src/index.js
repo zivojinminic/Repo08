@@ -16,4 +16,4 @@ addFive();
 module.exports = {
     addThree,
     addFive
-}
+};
