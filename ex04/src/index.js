@@ -1,7 +1,7 @@
 // Only change code below this line
 function localScope() {
     var myVariable = "I am here!";
-    console.log("localScope: " + myVariable);
+    console.log("the inside localScope: " + myVariable);
 }
 
 localScope();
@@ -9,7 +9,7 @@ localScope();
 // Only change code above this line
 
 
-// myVariable is not definrd outside of localScope
+// myVariable is not defined outside of localScope
 if(typeof myVariable != "undefined") {
     console.log('outside localScope', myVariable)
 } else {
